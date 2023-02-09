@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e9f846eec1b5285458906a1197ea9987
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - meltMap: {instanceID: 0}
+  - burnMap: {instanceID: 0}
+  - defaultMaterial: {fileID: 2100000, guid: f0b967ab6f890a542af38fea7c8facce, type: 2}
+  - grabTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BrickWall
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 8286781798770107076, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: -7241171655326686040, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: -8684752412072487729, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: -6510085377607587514, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: 7324382212578382563, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: 3541709004665055109, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: -6091334414429616074, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: 7931596863352038568, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: 822473495931738418, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: 4470521940795030086, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: 6995848930601919438, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: 3502791874733813172, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: -2263608428750394911, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: 2861597969788558866, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    - {fileID: -5698669133313839911, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+    totalSpriteSurfaceArea: 977
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -5698669133313839911, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 6995848930601919438, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 3502791874733813172, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: -2263608428750394911, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 2861597969788558866, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 3541709004665055109, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 7324382212578382563, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 7931596863352038568, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: -6091334414429616074, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: -7241171655326686040, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 8286781798770107076, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: -6510085377607587514, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: -8684752412072487729, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 4470521940795030086, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  - {fileID: 822473495931738418, guid: a3b4a95461c882e4680cb0c18c29d227, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Brick wall parts_14
+  - Brick wall parts_10
+  - Brick wall parts_11
+  - Brick wall parts_12
+  - Brick wall parts_13
+  - Brick wall parts_5
+  - Brick wall parts_4
+  - Brick wall parts_7
+  - Brick wall parts_6
+  - Brick wall parts_1
+  - Brick wall parts_0
+  - Brick wall parts_3
+  - Brick wall parts_2
+  - Brick wall parts_9
+  - Brick wall parts_8
+  m_RenderDataMap: {}
+  m_Tag: BrickWall
+  m_IsVariant: 0

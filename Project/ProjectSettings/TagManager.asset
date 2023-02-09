@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ragdoll
+  - UI
+  - Canvas
+  - Weapon
+  - Ghost
+  - ContextMenu
+  - Bound
+  - Constraint
+  - ConstraintMenu
+  - Particle
+  - MenuSorting
+  - Copy
+  - Bullet
+  - Mechanic
+  - MelleeWeapon
+  - Gib
+  - Breakable
+  - Water
+  - Editor
+  - EffectParticle
+  - EasterEgg
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - FloatingRagdoll
+  - Ground
+  - Floating
+  - WaterUser
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - NoCollide
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 3819365565
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Constraint
+    uniqueID: 2302983041
+    locked: 0
+  - name: Particle
+    uniqueID: 3578701557
+    locked: 0
+  - name: FrontGround
+    uniqueID: 1016197085
+    locked: 0
+  - name: Decal
+    uniqueID: 2319734231
+    locked: 0
+  - name: UI
+    uniqueID: 730241901
+    locked: 0
+  - name: Canvas
+    uniqueID: 1916030485
+    locked: 0

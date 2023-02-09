@@ -1,0 +1,717 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2324959290190305968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3893885090709306046}
+  - component: {fileID: 506685585054501803}
+  - component: {fileID: 2004077721821983950}
+  - component: {fileID: 7576311398554051327}
+  m_Layer: 0
+  m_Name: Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3893885090709306046
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2324959290190305968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4231454890060948335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 580, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &506685585054501803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2324959290190305968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115048fd05ed09446a620fba89d128bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vertical: 1
+  inverse: 0
+  buttonsSize: 145
+  maxButtonsCount: 4
+  scrollRect: {fileID: 503860183267969752}
+--- !u!114 &2004077721821983950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2324959290190305968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &7576311398554051327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2324959290190305968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1331941de0238e4bb14dd0e0deee54e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4231454890060948320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4231454890060948335}
+  - component: {fileID: 4231454890060948334}
+  m_Layer: 0
+  m_Name: MenuViewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4231454890060948335
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231454890060948320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3893885090709306046}
+  m_Father: {fileID: 4231454890933584914}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4231454890060948334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231454890060948320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1 &4231454890933584915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4231454890933584914}
+  - component: {fileID: 4231454890933584912}
+  - component: {fileID: 4231454890933584913}
+  - component: {fileID: 775693753472629988}
+  - component: {fileID: 503860183267969752}
+  m_Layer: 0
+  m_Name: ContextMenu
+  m_TagString: ContextMenu
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4231454890933584914
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231454890933584915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4231454890060948335}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 580, y: 580}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4231454890933584912
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231454890933584915}
+  m_CullTransparentMesh: 1
+--- !u!114 &4231454890933584913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231454890933584915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8d03466adaccbea449be8b9fdc08907b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &775693753472629988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231454890933584915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ac9bcb8507428c41852c5846ca1d6ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttons:
+  - name: Delete
+    textOn: Delete
+    textOff: Delete
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Remove
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Freeze
+    textOn: Unfreeze
+    textOff: Freeze
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Freeze
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: FreezeCheck
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: NoCollide
+    textOn: Enable collision
+    textOff: Disable collision
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: NoCollide
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: NoCollideCheck
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: Activate
+    textOn: Activate
+    textOff: Activate
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Active
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: ActivationToggle
+    textOn: Toggle
+    textOff: Toggle
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: ActivationToggle
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: ActivationToggleCheck
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: Follow
+    textOn: Unfollow
+    textOff: Follow
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Follow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: FollowCheck
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: Gravity
+    textOn: Disable gravity
+    textOff: Enable gravity
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Gravity
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: GravityCheck
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: Copy
+    textOn: Copy
+    textOff: Copy
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Copy
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Parent
+    textOn: Unparent
+    textOff: Parent
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Parent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: ParentCheck
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: Resize
+    textOn: Stop resizing
+    textOff: Resize
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Resize
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: ResizeCheck
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: Flip
+    textOn: Flip
+    textOff: Flip
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Mirror
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls: []
+  IgniteButton:
+    name: Ignite
+    textOn: Extinguish
+    textOff: Ignite
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Ignite
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: IgniteCheck
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  TakeOffButton:
+    name: TakeOff
+    textOn: Take Off
+    textOff: Take Off
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: TakeOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls: []
+  buttonsForLiving:
+  - name: Stop animation
+    textOn: Stop animation
+    textOff: Stop animation
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: StopAnimations
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Sit
+    textOn: Sit
+    textOff: Sit
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Sit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Walk
+    textOn: Walk
+    textOff: Walk
+    func:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 775693753472629988}
+          m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
+          m_MethodName: Walk
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    checkFunc:
+      m_PersistentCalls:
+        m_Calls: []
+  defaultButton: {fileID: 8945945319866085633, guid: 051b224604fce3b4b9faf685a8682450, type: 3}
+  trg: {fileID: 0}
+  block: {fileID: 0}
+  copyContainer: {fileID: 4389269349523551728, guid: 435c31a150de5c5478d9c3ae6c423e07, type: 3}
+  origin: {fileID: 0}
+  resizeCross: {fileID: 4699291289531581490, guid: e90c54db172eed348959a376aece4583, type: 3}
+  lerpTime: 0.3
+  isClosing: 0
+  FreezeEffect: {fileID: 7720215052874118778, guid: 2387a5fa6d354824981ebe31b2ac20b3, type: 3}
+  UnfreezeEffect: {fileID: 7720215052874118778, guid: 9144f1839a2f5644c9ea4a82509281be, type: 3}
+  GravityOn: {fileID: 7720215052874118778, guid: 4da7409efff70d84fb0ad24e7be883d9, type: 3}
+  GravityOff: {fileID: 7720215052874118778, guid: 96045b4d48977c04b872da5fcead2791, type: 3}
+  DeleteEffect: {fileID: 7720215052874118778, guid: eb3d63bef24e04347815119937f72281, type: 3}
+  DisableCollisonEffect: {fileID: 7720215052874118778, guid: f793d9310b7b4a449806bf19a9592d43, type: 3}
+  EnableCollisonEffect: {fileID: 7720215052874118778, guid: 9dbe55b2d4818f6489c59212f62104a4, type: 3}
+--- !u!114 &503860183267969752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231454890933584915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 3893885090709306046}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 0
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
