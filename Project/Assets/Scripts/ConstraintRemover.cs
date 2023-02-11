@@ -83,13 +83,7 @@ public class ConstraintRemover : MonoBehaviour
         switch (index)
         {
             case 0:
-                if (distanceJoint2D == null)
-                    Destroy(gameObject);
-                else
                 {
-                    if (distanceJoint2D.connectedBody == null)
-                        Destroy(gameObject);
-                    else
                     {
                         constraintLocalPos = distanceJoint2D.transform.InverseTransformPoint(distanceJoint2D.connectedBody.transform.TransformPoint(distanceJoint2D.connectedAnchor));
                         dist = distanceJoint2D.distance;
@@ -108,18 +102,17 @@ public class ConstraintRemover : MonoBehaviour
             case 1:
                 if (fixedJoint2D == null)
                 {
-                    Destroy(gameObject);
+                    // Destroy(gameObject);
                 }
                 else
                 {
                     if (fixedJoint2D.connectedBody == null)
-                        Destroy(gameObject);
+                    {
+                        // Destroy(gameObject);
+                    }
                 }
                 break;
             case 2:
-                if (springJoint2D == null)  
-                    Destroy(gameObject);
-                else
                 {
                     if (springJoint2D.connectedBody == null)
                         Destroy(gameObject);
@@ -137,9 +130,13 @@ public class ConstraintRemover : MonoBehaviour
                 break;
             case 3:
                 if (hingeJoint2D == null)
-                    Destroy(gameObject);
+                {
+                    // Destroy(gameObject);
+                }
                 else if (hingeJoint2D.connectedBody == null)
-                    Destroy(gameObject);
+                {
+                    // Destroy(gameObject);
+                }
                 break;
         }
     }
@@ -147,12 +144,20 @@ public class ConstraintRemover : MonoBehaviour
     private void OnDestroy()
     {
         if (distanceJoint2D != null)
-            Destroy(distanceJoint2D);
+        {
+            // Destroy(gameObject);
+        }
         if (fixedJoint2D != null)
-            Destroy(fixedJoint2D);
+        {
+            // Destroy(gameObject);
+        }
         if (hingeJoint2D != null)
-            Destroy(hingeJoint2D);
+        {
+            // Destroy(gameObject);
+        }
         if (springJoint2D != null)
-            Destroy(springJoint2D);
+        {
+            // Destroy(gameObject);
+        }
     }
 }

@@ -132,5 +132,8 @@ public class Detonator : MonoBehaviour
             }
         }
         Destroy(gameObject);
+
+
     }
+
 }
