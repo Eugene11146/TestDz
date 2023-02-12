@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Простой класс кидающий бомбу по нажатию на пробел
+/// </summary>
 public class ThrowJumpBall : MonoBehaviour
 {
     [SerializeField]
@@ -17,7 +20,6 @@ public class ThrowJumpBall : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Space;");
             Instantiate(bomb, startPoint.position, startPoint.rotation).AddForce(forceVector, ForceMode2D.Impulse);
         }
     }

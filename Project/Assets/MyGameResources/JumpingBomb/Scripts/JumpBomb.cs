@@ -2,14 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Контроллер бомбы-прыгуньи
+/// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 public class JumpBomb : MonoBehaviour
 {
+    /// <summary>
+    /// Зввук взрыва
+    /// </summary>
     [SerializeField]
-    public AudioSource audioSource;
+    public AudioSource AudioSource;
     
+    /// <summary>
+    /// Эффект взрыва
+    /// </summary>
     [SerializeField]
-    public GameObject explosionEffect;
+    public GameObject ExplosionEffect;
 
     [SerializeField]
     private float force;
@@ -24,11 +34,7 @@ public class JumpBomb : MonoBehaviour
 
     private bool isBloweUp = default;
 
-
-    private void Awake()
-    {
-        rigidbody = GetComponent<Rigidbody2D>();
-    }
+    private void Awake() => rigidbody = GetComponent<Rigidbody2D>();
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -46,8 +52,8 @@ public class JumpBomb : MonoBehaviour
     private void Explosion()
     {
         isBloweUp = true;
-        Instantiate(explosionEffect, transform.position, transform.rotation);
-        audioSource.Play();
+        Instantiate(ExplosionEffect, transform.position, transform.rotation);
+        AudioSource.Play();
         rigidbody.transform.localScale = Vector3.zero;
         StartCoroutine(DestroyDelay());
     }
@@ -57,5 +63,4 @@ public class JumpBomb : MonoBehaviour
         yield return new WaitForSeconds(timeForDestroy);
         Destroy(gameObject);
     }
-
 }

@@ -135,8 +135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3479c198a9ebca42919eb320f112dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 97321573647859619}
-  explosionEffect: {fileID: 7042087348964749828, guid: 32ca169dcfd21a447901d6765d50b620, type: 3}
+  AudioSource: {fileID: 97321573647859619}
+  ExplosionEffect: {fileID: 7042087348964749828, guid: 32ca169dcfd21a447901d6765d50b620, type: 3}
   force: 1.8
   timeForDestroy: 1
   speedToDestroy: 10
